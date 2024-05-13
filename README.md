@@ -1,4 +1,4 @@
-# README do Git - Projetos da DIO
+# Projetos da DIO 
 
 Bem-vindo ao meu repositório de projetos da Digital Innovation One (DIO)!
 
