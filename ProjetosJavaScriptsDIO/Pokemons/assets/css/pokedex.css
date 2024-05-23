@@ -6,6 +6,9 @@
     grid-template-columns: 1fr;
 }
 
+.pokemons li:hover {
+    transform: translateY(-5px);
+}
 .pokemon {
     display: flex;
     flex-direction: column;
@@ -144,6 +147,14 @@
     margin: .25rem 0;
 }
 
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 960px;
+        margin: 2rem auto; 
+        border-radius: 1rem;
+        padding: 2rem 3rem; 
+    }
+}
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
