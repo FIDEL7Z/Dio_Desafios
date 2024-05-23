@@ -29,7 +29,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     background: linear-gradient(90deg, #0d7293, #0a4a60); 
-    -webkit-background-clip: text; /* Correção aqui */
+    -webkit-background-clip: text; 
     color: transparent; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
     animation: slideIn 1.5s ease-in-out;

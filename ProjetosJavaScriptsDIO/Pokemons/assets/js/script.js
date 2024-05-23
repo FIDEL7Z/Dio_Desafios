@@ -2,7 +2,7 @@ const pokemonList = document.getElementById('pokemonList');
 const loadMoreButton = document.getElementById('loadMoreButton');
 const limit = 10;
 let offset = 0;
-const maxRecords = 151;
+const maxRecords = 700;
 
 function loadPokemonItens(offset, limit) {
     pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
