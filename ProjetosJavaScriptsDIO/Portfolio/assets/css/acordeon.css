@@ -1,0 +1,41 @@
+.acodeon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+
+
+
+.acodeon .trigger {
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem 2rem;
+    font-weight: 700;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.acodeon .trigger:hover {
+    cursor: pointer;
+}
+
+.acodeon .trigger::after {
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/ProjetosJavaScriptsDIO/Portfolio/assets/Img/Arrow-top.svg');
+}
+
+.acodeon .content {
+    display: none; 
+}
