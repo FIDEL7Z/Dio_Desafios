@@ -1,0 +1,44 @@
+.profissional {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.profissional li {
+    padding: .5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.profissional .title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.profissional .date {
+    font-style: italic;
+    color: #ffffff; /* Ajustado para melhorar a legibilidade */
+    margin-bottom: 0.5rem;
+    position: relative; /* Necessário para posicionar o ícone corretamente */
+    padding-left: 2rem; /* Espaço para o ícone */
+}
+
+.profissional .date::before {
+    content: '';
+    display: inline-block;
+    width: 1rem; /* Ajuste conforme necessário */
+    height: 1rem; /* Ajuste conforme necessário */
+    background-image: url('/ProjetosJavaScriptsDIO/Portfolio/assets/Img/icons/Calendario.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0.2rem; /* Ajuste vertical para alinhar o ícone */
+}
+
+.profissional .description {
+    margin: 0;
+}

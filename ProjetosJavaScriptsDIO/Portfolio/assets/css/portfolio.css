@@ -1,0 +1,48 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.portfolio li {
+    padding: 1rem;
+    border-bottom: 2px solid #ddd;
+    position: relative;
+}
+
+.portfolio li .title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 1.25rem;
+    color: white
+}
+
+.portfolio li a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding-left: 2rem; 
+}
+
+.portfolio li a::before {
+    content: '';
+    display: inline-block;
+    width: 1rem; 
+    height: 1rem; 
+    background-image: url('/ProjetosJavaScriptsDIO/Portfolio/assets/Img/icons/Github.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+}
+
+.portfolio li a:hover {
+    text-decoration: underline;
+}

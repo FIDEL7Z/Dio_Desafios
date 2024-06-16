@@ -7,46 +7,117 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/acordeon.css">
+    <link rel="stylesheet" href="assets/css/languegens.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="stylesheet" href="assets/css/profissional.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
-    
 </head>
 <body>
+     <!-- Informação -->
     <div class="main">
-  <header class="header">
-    <img src="assets/Img/eu.jpg" alt="Fto de jefferson" class="photo">
+        <header class="header">
+            <img src="assets/Img/eu.jpg" alt="Foto de Jefferson" class="photo">
+            <h1 class="title">
+                Olá, <br>eu sou Jefferson Fidelis
+            </h1>
+            <div class="information">
+                <p class="Pessoa">Junior Developer</p>
+                <p class="localizacao">Paraiba - BR</p>
+                <p class="celular">(83) 9 9418-6006</p>
+                <p class="email">junior.fidelis.3386@gmail.com</p>
+            </div>
+        </header>
+          <!-- Skills-->
+        <section class="acodeon open">
+            <button class="trigger" type="button">Skills</button>
+                <div class="content">
+                    <div class="Skills">
+                    <section class="tools">
+                        <h3>Ferramentas</h3>
+                        <ul>
+                             <li>
+                                 <img src="assets/Img/icons/languagens/react.svg" alt="react" title="React">
+                             </li>
+                            <li>
+                                 <img src="assets/Img/icons/languagens/js.svg" alt="Node" title="Node">
+                             </li>
+                             <li>
+                                 <img src="assets/Img/icons/languagens/angular.svg" alt="angular" title="Angular">
+                             </li>
+                             <li>
+                                 <img src="assets/Img/icons/languagens/css.svg" alt="css" title="Css">
+                             </li>
+                    </section>
 
- 
-    <h1 class="title">
-        Olá, <br>eu sou Jefferson Fidelis
-    </h1>
-
-    <div class="information">
-    <p class="Pessoa">Junior Developer</p>                      
-    <p class="localizacao">Paraiba - BR</p>
-    <p class="celular">(83) 9 9418-6006</p>
-    <p class="email">junior.fidelis.3386@gmail.com</p>
-   </div>
-</header>
-        <section section class="acodeon">
-                <button class="trigger" type="button">
-                        Idiomas
-                </button>
-
+                    <section class="personal">
+                        <h3>Habilidades Pessoais</h3>
+                        <ul>
+                            <li>Lidenraça</li>
+                            <li>Trabalho em Equipe</li>
+                            <li>Organização</li>
+                            <li>Comunicação</li>      
+                            <li>Facilidade com tarefas práticas</li>
+                </section>
+            </div>
+            </div> 
+        </section>
+      <!-- Idiomas-->
+        <section class="acodeon">
+            <button class="trigger" type="button">Idiomas</button>
             <div class="content">
-                <ul>
-                    <li>Português</li>
-                    <li>Ingles</li>
+                <ul class="laguagens">
+                    <li>Português (BR)</li>
+                    <li>Inglês</li>
                     <li>Espanhol</li>
+                </ul>
+            </div> 
+        </section>
+     <!--Projetos-->
+        <section class="acodeon">
+            <button class="trigger" type="button">Portfólio</button>
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <a class="title github" href="https://github.com/FIDEL7Z/PokeGenerator" target="_blank">PokeGenerator</a>
+                    </li>
+                    <li>
+                        <a class="title github" href="https://github.com/FIDEL7Z/Projeto_Detec-o_de_Objetos" target="_blank">Detecção de Objetos em Tempo Real</a>
+                    </li>
+                    <li>
+                        <a class="title github" href="https://portfolio-swart-omega-50.vercel.app/" target="_blank">Portfólio Original</a>
+                    </li>
+                </ul>
+            </div> 
+        </section>
+     <!-- Experiência Profissional -->
+        <section class="acodeon">
+            <button class="trigger" type="button">Experiência</button>
+            <div class="content">
+                <ul class="profissional">
+                    <li>
+                        <h3 class="title">Desenvolvedor Junior / Fabrica de software</h3>
+                        <p class="date">Agosto 2023 - Dezembro 2023 </p>
+                        <p class="description">Responsável por desenvolver aplicações web utilizando JavaScript, HTML e CSS. Colaborou com a equipe para implementar novas funcionalidades e resolver bugs.</p>
+                    </li>
+                    <li>
+                        <h3 class="title">São Braz / SuporteTI</h3>
+                        <p class="date">Abril 2022 - Junho 2022</p>
+                        <p class="description">Ajudar os usuários com problemas de hardware e software, configurar equipamentos e realizar manutenção preventiva em sistemas e dispositivos de tecnologia.</p>
+                    </li>
+                    <li>
+                        <h3 class="title">Estagiario at DataPrev / Desenvolvimento</h3>
+                        <p class="date">abril 2024 - Presente</p>
+                        <p class="description">meu estágio na Dataprev, estou focado na análise de dados e no desenvolvimento de sistemas de Business Intelligence. Venho me especializando no uso das ferramentas Webfocus e Hyperstage, o que tem sido uma experiência bastante enriquecedora. Além disso, estou desempenhando um papel importante no desenvolvimento de soluções com JavaScript e Java, especialmente na criação de painéis gráficos que tornam a visualização de dados muito mais eficaz.</p>
+                    </li>
                 </ul>
             </div> 
         </section>
     </div>
 
+    <script src="assets/js/acordeon.js"></script>
 </body>
 </html>
